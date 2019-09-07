@@ -48,8 +48,8 @@ return
 Send {Media_Play_Pause}
 Process, Close, spotify.exe
 Sleep, 2000
-Run, spotify.exe, , min
-Sleep, 5000
+Run, spotify.exe, , Minimize
+Sleep, 2000
 Send {Media_Play_Pause}
 return
 
