@@ -69,3 +69,6 @@ ifWinActive, chrome.exe
 ; Send {RWin Down}
 ; Send {RWin Up}
 ; return
+
+#t::
+Run, cmd.exe, , Max
