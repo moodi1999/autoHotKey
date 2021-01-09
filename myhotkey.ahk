@@ -49,6 +49,7 @@ return
 Send {Media_Prev}
 return
 
+~AppsKey & F6::
 <#F6::
 Run, "D:\StoreAppLinks\Groove Music.lnk"
 return
