@@ -27,8 +27,7 @@ Process, Exist, Music.UI.exe
   {
   If ! errorLevel
     {
-    ; Run, cmd /c start "explorer.exe shell:C:\Program Files\WindowsApps\Microsoft.ZuneMusic_3.6.25021.0_x64__8wekyb3d8bbwe!Microsoft.ZuneMusic" "C:\Users\AhmadrezaMoodi\Music\Playlists\All.zpl",,Hide
-    Run, C:\Users\AhmadrezaMoodi\Documents\Misc\groove.bat, C:\Users\AhmadrezaMoodi\Documents\Misc
+    Run, "D:\StoreAppLinks\Groove Music.lnk"
     Return
     }
   else
@@ -47,11 +46,6 @@ return
 ~AppsKey & F7::
 <#F7::
 Send {Media_Prev}
-return
-
-~AppsKey & F6::
-<#F6::
-Run, "D:\StoreAppLinks\Groove Music.lnk"
 return
 
 ~LControl & XButton1::
